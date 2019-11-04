@@ -95,7 +95,7 @@ void f3(int size, int * array) {
 		//searching for a number smaller than array[i]
 		int placement = 0;
 		while (placement < i) {
-			if (array[placement] < array[i]) {
+			if (array[placement] > array[i]) {
 				break;
 			}
 			placement ++;
